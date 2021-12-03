@@ -1,0 +1,8 @@
+{
+  "trailingComma": "all",
+  "singleQuote": false,
+  "importOrder": [
+    "^[./]"
+  ],
+  "importOrderSeparation": true
+}

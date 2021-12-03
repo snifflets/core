@@ -1,0 +1,34 @@
+{
+  "name": "@snifflets/core",
+  "version": "0.0.1-alpha",
+  "main": "index.js",
+  "repository": "https://github.com/snifflets/core.git",
+  "author": "snifflets <musalov2@gmail.com>",
+  "license": "Apache-2.0",
+  "private": false,
+  "scripts": {
+    "husky:install": "cd .. && husky install backend/.husky",
+    "clear": "rimraf dist"
+  },
+  "dependencies": {
+    "fluture": "^14.0.0",
+    "fp-ts": "^2.11.5",
+    "fp-ts-contrib": "^0.1.26",
+    "io-ts": "^2.2.16",
+    "monocle-ts": "^2.3.11",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.1.1",
+    "@types/node": "^16.11.11",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.0",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "^4.5.2"
+  }
+}
